@@ -1,8 +1,8 @@
 <?php
 
 function github_check_update( $transient ) {
-$usergithub=farkbarn;
-$ramastable=master;
+$usergithub=/*COLOCAR USUARIO GITHUB*/;
+$ramastable=/*COLOCAR RAMA DE LA QUE SE DESEA OBTENER LA ACTUALIZACION*/;
     if ( empty( $transient->checked ) ) {
         return $transient;
     }
